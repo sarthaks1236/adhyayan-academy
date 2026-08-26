@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sarthaks1236.github.io/Adhyayan-Academy/sitemap.xml
+Sitemap: https://adhyayan-academy-mfile.vercel.app/sitemap.xml
