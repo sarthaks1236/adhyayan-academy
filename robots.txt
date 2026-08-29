@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adhyayan-academy-mfile.vercel.app/sitemap.xml

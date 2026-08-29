@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found | Adhyayan Academy</title>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+Devanagari:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy-deep:#072e2b; --navy:#0b4440; --gold:#eab04c; --gold-light:#f6cb7c; --cream:#f5f9f7;
+  }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  body{
+    min-height:100vh; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:22px;
+    background:radial-gradient(120% 90% at 50% -10%, var(--navy) 0%, var(--navy-deep) 100%);
+    font-family:'Inter',sans-serif; color:var(--cream); text-align:center; padding:24px;
+  }
+  img{ width:64px; height:64px; border-radius:50%; margin-bottom:6px; }
+  h1{ font-family:'Fraunces',serif; font-size:clamp(2rem,6vw,3rem); color:var(--gold-light); }
+  p{ color:rgba(245,249,247,.7); max-width:46ch; line-height:1.7; }
+  .peaks{ width:min(320px,80vw); opacity:.8; }
+  a.btn{
+    display:inline-flex; margin-top:10px; padding:13px 26px; border-radius:100px; font-weight:600;
+    background:linear-gradient(135deg,var(--gold-light),#c98a2e); color:var(--navy-deep); text-decoration:none;
+  }
+</style>
+</head>
+<body>
+  <img src="assets/images/logo.png" alt="Adhyayan Academy">
+  <svg class="peaks" viewBox="0 0 480 160"><polyline points="10,140 70,60 130,100 190,30 250,90 310,50 370,100 420,70 470,140" fill="none" stroke="#eab04c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></svg>
+  <h1>404 — Yeh raasta nahi milta</h1>
+  <p>Jo page aap dhoondh rahe hain wo shayad move ho gaya hai ya exist nahi karta. Chaliye aapko sahi jagah pahunchate hain.</p>
+  <a href="index.html" class="btn">← Home par wapas jaayein</a>
+</body>
+</html>
